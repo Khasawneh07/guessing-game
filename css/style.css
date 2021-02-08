@@ -12,3 +12,15 @@
 main section p {
     margin: 20px;
 }
+header nav {
+    font-weight: bold;
+    color: rgba(2, 48, 2, 0.651);
+}
+
+header nav a {
+    text-decoration: none;
+}
+header {
+    color: sienna;
+    text-align: center;
+}
