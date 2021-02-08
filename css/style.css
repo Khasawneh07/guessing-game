@@ -1,0 +1,14 @@
+#mainImg {
+    float: right;
+}
+#biography {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(8, 0, 61);
+}
+* {
+    background-color: rgb(255, 207, 173);
+}
+main section p {
+    margin: 20px;
+}
