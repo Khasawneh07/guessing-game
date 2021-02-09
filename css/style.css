@@ -9,8 +9,9 @@
 * {
     background-color: rgb(255, 207, 173);
 }
-main section p {
-    margin: 20px;
+main section div {
+    margin-left: 20px;
+    font-size: x-large;
 }
 header nav {
     font-weight: bold;
@@ -23,4 +24,23 @@ header nav a {
 header {
     color: sienna;
     text-align: center;
+}
+
+main {
+    margin-top: 30px;
+}
+ul {
+    margin-left : 20px;
+    list-style: circle;
+}
+ul li {
+    margin-left: 20px;
+}
+ol 
+{
+    margin-left: 20px;
+    list-style: decimal;
+}
+ol li {
+    margin-left: 20px;
 }
