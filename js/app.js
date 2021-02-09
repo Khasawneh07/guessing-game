@@ -99,6 +99,9 @@ do {
         score++
         break;
     }
+    else {
+        no_ = prompt('Invalid value , Try again');
+    }
     attempt++;
 } while (attempt !== 3);
 
@@ -114,7 +117,7 @@ let flag = false;
 
 //console.log(fov_lan.length);
 
-for (let i = 0; i <= 5; i++) {
+for (let i = 0; i < 5; i++) {
 
     //console.log(userinput.toLowerCase());
     for (let j = 0; j < fov_lan.length ; j++){
@@ -130,5 +133,9 @@ for (let i = 0; i <= 5; i++) {
         break;
     }
     userinput = prompt('Try Again');
+}
+if(!flag)
+{
+    alert(`Hard luck ${userName} , I like ${fov_lan[0]} , ${fov_lan[1]} , ${fov_lan[2]} and ${fov_lan[3]}`);
 }
 alert(`Thank you ${userName} \n your score is ${score} out of 7 , I wish to see you again`);
