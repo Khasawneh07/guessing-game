@@ -102,7 +102,7 @@ do {
     attempt++;
 } while (attempt !== 3);
 
-console.log(no_);
+//console.log(no_);
 if (parseInt(no_) !== 6) {
     alert(`Hard luck ${userName} , I have 6 brothers and sisters`);
 }
