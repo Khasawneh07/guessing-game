@@ -9,8 +9,6 @@ function userAnswer(question) {
     return userInput;
 }
 
-
-
 let myQuestions = ['Do I love programming?',
     'Am I from Amman?',
     'Is Orange my favourite color?',
