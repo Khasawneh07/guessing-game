@@ -1,6 +1,5 @@
 'strict use';
 
-
 let userName = prompt('What is your Name?');
 alert(`Welcome ${userName}, I hope to enjoy in my page`);
 let score = 0;
