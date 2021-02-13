@@ -1,5 +1,8 @@
 #mainImg {
-    float: right;
+    
+    position: absolute;
+    left : 600px;
+    top : 370px;
 }
 #biography {
     font-size: 20px;
@@ -7,11 +10,20 @@
     color: rgb(8, 0, 61);
 }
 * {
-    background-color: rgb(255, 207, 173);
+    background-color: rgba(255, 196, 240, 0.842);
 }
+
+
 main section div {
     margin-left: 20px;
     font-size: x-large;
+    border: inset rgb(245, 103, 209) 4px;
+}
+#short {
+    width: fit-content;
+}
+#top10 {
+    width: 500px;
 }
 header nav {
     font-weight: bold;
